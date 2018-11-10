@@ -1,32 +1,32 @@
-#b-id{
-display:flex;
-justify-content: center;
+#b-id {
+    display: flex;
+    justify-content: center;
 
 }
 
-#search_person_id{
+#search_person_id {
 
     padding: 10px;
 
 }
 
-#ln_id{
+#ln_id {
 
     padding: 10px;
 
 }
 
-.module{
-display: flex;
-flex-direction: column;
-padding: 15px;
+.module {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
 
 }
 
-.split{
+.split {
 
-display: flex;
-flex-direction: row;
-padding: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
 
 }
