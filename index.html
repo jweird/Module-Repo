@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MVC PAttern</title>
@@ -14,14 +15,27 @@
 
 </head>
 <body id="b-id">
+        <div class= "module">
+        <h1>Enter Last Name</h1>
         <input id='ln_id' type='text'> 
-        <button id='search_person_id' value="search" onClick="controll()"> </button>
-
+        <button id='search_person_id' value="search" onClick="controll()"> Search </button>
+        <h1>STUDENTS</h1>
         <ul id="Student_List"></ul>
-        <p id="Grades"></p>
+        <div class="split">
+        <div class= "module">
+        <h1> Grades </h1>
+        <p id="Grades"> </p>
+        </div>
+        <div class= "module">
+        <h1>Courses</h1>
+        <p id="Courses"> </p>
+        </div>
+        </div>
+        </div>
+
+
+       
     
-
-
 
 </body>
 </html>

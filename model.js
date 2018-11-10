@@ -30,6 +30,16 @@ model = (function(){
     student_set.push(student_8);
     
 
+    Student.prototype.getCourses = function() {
+        return this.courses;
+      }
+      Student.prototype.getGrades = function() {
+        return this.grade;
+      }
+    
+ 
+
+
 
     return student_set;
 

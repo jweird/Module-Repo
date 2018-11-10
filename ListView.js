@@ -12,19 +12,25 @@ view = (function(){
 		}
 		//
 		for (i=0; i<this.content.length; i++) {
-			var li_node = document.createElement('button');
-			li_node.setAttribute("id", "buttons");
-			li_node.setAttribute("onClick", "viewGrades()");
+			var li_node = document.createElement('li');
+			li_node.setAttribute("id", i);
+			li_node.setAttribute("onClick", "controll(this.id)")
 			var li_content = document.createTextNode(this.content[i].first_name);
 			li_node.appendChild(li_content);
 			this.root.appendChild(li_node);  
+
+			var list = document.getElementById("li");
+			var example = document.getElementById("Grades");
+			
 		}	
 		console.log(content);
 		
-		viewGrades(content);
+		//viewGrades(content);
 
     }
 
 
     return display;
 })();
+
+
